@@ -1,0 +1,49 @@
+{
+    "partabtxt": {
+        "detA": [],
+        "detA1": [],
+        "detA3": [],
+        "detB": []
+    },
+    "partGtxt": {
+        "fyG": [],
+        "detG": []
+    },
+    "partA2txt": {
+        "detA2": []
+    },
+    "partctxt": {
+        "detC": []
+    },
+    "partdtxt": {
+        "detD": []
+    },
+    "partetxt": {
+        "detE": [
+            {
+                "E1": 1,
+                "E2": "SFT-006 Payment for Credit Card",
+                "E3": "ICICI Bank Limited, ICICI BANK TOWERS 1 BANDRA KURLA COMPLEX BANDRA EAST, MUMBAI, MAHARASHTRA, INDIA, 400051",
+                "E4": "-",
+                "E7": "349280.00",
+                "E9": "O"
+            }
+        ]
+    },
+    "partHtxt": {
+        "detH": []
+    },
+    "partftxt": {
+        "detF": []
+    },
+    "partfsum": "0.00^0.00^0.00",
+    "partA2sum": "0.00^0.00",
+    "partVtxt": {
+        "detPV": []
+    },
+    "partIXtxt": {
+        "detPIX": []
+    },
+    "partVsum": "0.00",
+    "partIXsum": "0.00^0.00"
+}

@@ -1,0 +1,21 @@
+config:
+  # This is a test server run by team Artillery
+  # It's designed to be highly scalable
+  target: http://localhost:3001
+  phases:
+    - duration: 60
+      arrivalRate: 10
+  payload:
+    path: './years.csv'
+    fields:
+      - 'year'
+    cast: false
+scenarios:
+  - flow:
+      - loop:
+          - post:
+              url: '/serv/tapn/srv/TDS26ASServlet'
+              json:
+                assessYear: '{{ year }}'
+          - get:
+              url: '/serv/tapn/srv/TDS26ASServlet'

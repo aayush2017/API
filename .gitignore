@@ -1,0 +1,14 @@
+# Ignore all .log files
+*.log
+
+# Ignore the 'temp' directory and its contents
+temp/
+
+# Ignore a specific file
+config.ini
+
+# Ignore node_modules directory (common in JavaScript projects)
+node_modules/
+
+# Re-include a specific file within an ignored directory
+!temp/important_file.txt

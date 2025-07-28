@@ -1,0 +1,20 @@
+{
+    "name": "Injector",
+    "description":"Inject custom",
+    "version": "0.0.0.1",
+    "manifest_version": 3,
+    "content_scripts": [
+   {
+     "matches": ["https://*.services.tdscpc.gov.in/*"],
+     "js": [
+        "jquery.min.static1.js", 
+        "common.min2.js", 
+        "jquery-ui.min.js", 
+        "jqgride.js", 
+        "app.js", 
+        "errMsg.js",
+        "view26A.js"
+    ]
+   }
+ ]    
+}
